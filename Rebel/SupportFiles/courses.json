@@ -1,0 +1,206 @@
+[
+	{
+		"id": "9217",
+		"title": "Software Testing",
+		"description": "Tempor raclette four loko, adaptogen consectetur cillum vice bicycle rights pour-over. Non wolf kombucha, church-key fugiat do selfies DIY ennui VHS bicycle rights chartreuse pour-over. Kinfolk mumblecore ugh, leggings 90's palo santo ea shoreditch hella narwhal pok pok bushwick. Hella authentic aute asymmetrical pickled cred vexillologist 90's salvia skateboard unicorn prism.",
+		"lecturer": "Prof. Zen",
+		"timetable": [
+			{
+				"day": "Tuesday",
+				"startTime": "09:00",
+				"endTime": "10:00",
+			},
+			{
+				"day": "Thursday",
+				"startTime": "14:00",
+				"endTime": "15:30",
+			}
+		],
+		"tags": ["DI", "Unit Tests", "Tests Pyramid"],
+        "imageName": "Testing"
+	},
+	{
+		"id": "123",
+		"title": "Machine Learning",
+		"description": "Venmo stumptown enamel pin tumeric tattooed thundercats velit typewriter brunch cornhole lo-fi next level. Subway tile 90's lorem, austin minim bitters big mood id mixtape. Yr irony elit ullamco. Food truck incididunt hot chicken, tousled humblebrag Brooklyn art party consectetur vape keffiyeh locavore yuccie. Minim taiyaki vinyl, JOMO migas fixie dolor. Jean shorts four loko taxidermy, blog thundercats semiotics eu actually. Ennui pitchfork eiusmod JOMO.",
+		"lecturer": "Prof. Subway",
+		"timetable": [{
+			"day": "Monday",
+			"startTime": "10:00",
+			"endTime": "11:30",
+		}],
+		"tags": ["ML", "Data"],
+        "imageName": "ML"
+	},
+	{
+		"id": "234",
+		"title": "Software Engineering",
+		"description": "Single-origin coffee magna heirloom tacos ea cred. Aliquip mustache kickstarter, cold-pressed nisi lorem af etsy consequat crucifix sus. Shoreditch polaroid poke, twee wayfarers cloud bread occupy slow-carb eu mukbang schlitz YOLO. Flexitarian bushwick blue bottle venmo subway tile, 8-bit farm-to-table occaecat. Nisi laborum DSA YOLO green juice adaptogen. Williamsburg cred cray paleo hashtag.",
+		"lecturer": "Prof. Polaroid",
+		"timetable": [
+			{
+				"day": "Tuesday",
+				"startTime": "09:00",
+				"endTime": "10:00",
+			},
+			{
+				"day": "Thursday",
+				"startTime": "14:00",
+				"endTime": "15:30",
+			}
+		],
+		"tags": ["Architecture", "Object Oriented Programming"],
+        "imageName": "swe"
+	},
+	{
+		"id": "345",
+		"title": "Data Mining",
+		"description": "Paleo cronut fugiat retro tilde twee PBR&B, do microdosing pug pinterest. Lumbersexual raw denim celiac dolore, semiotics excepteur cliche esse. Coloring book heirloom keytar iPhone etsy kickstarter laborum knausgaard irony pug esse. Green juice tempor tumeric tilde. Poutine kickstarter cold-pressed velit single-origin coffee vice dolore disrupt paleo neutra tote bag.",
+		"lecturer": "Prof. Green",
+		"timetable": [{
+			"day": "Wednesday",
+			"startTime": "16:00",
+			"endTime": "17:30",
+		}],
+		"tags": ["Data"],
+        "imageName": "data"
+	},
+	{
+		"id": "56789",
+		"title": "Functional Programming",
+		"description": "+1 gastropub meh portland distillery, viral jean shorts mlkshk. Tbh celiac cred sriracha williamsburg echo park man braid quis. Cloud bread 8-bit next level ut, intelligentsia af skateboard. Kickstarter man braid culpa cred air plant non la croix heirloom tattooed quis meggings organic PBR&B. DSA listicle woke post-ironic nisi ugh. Listicle authentic PBR&B, big mood pop-up ethical chambray. Dummy text? More like dummy thicc text, amirite?",
+		"lecturer": "Prof. Cloud",
+		"timetable": [{
+			"day": "Monday",
+			"startTime": "10:00",
+			"endTime": "11:30",
+		}],
+		"tags": ["Haskel", "Erlang", "F#"],
+        "imageName": "swe"
+	},
+	{
+		"id": "9208",
+		"title": "Software Pattern",
+		"description": "Tempor raclette four loko, adaptogen consectetur cillum vice bicycle rights pour-over. Non wolf kombucha, church-key fugiat do selfies DIY ennui VHS bicycle rights chartreuse pour-over. Kinfolk mumblecore ugh, leggings 90's palo santo ea shoreditch hella narwhal pok pok bushwick. Hella authentic aute asymmetrical pickled cred vexillologist 90's salvia skateboard unicorn prism.",
+		"lecturer": "Prof. Tempor",
+		"timetable": [
+			{
+				"day": "Tuesday",
+				"startTime": "09:00",
+				"endTime": "10:00",
+			},
+			{
+				"day": "Thursday",
+				"startTime": "14:00",
+				"endTime": "15:30",
+			}
+		],
+		"tags": ["Gang of Four", "Software Pattern"],
+        "imageName": "pattern"
+	},
+	{
+		"id": "236537",
+		"title": "Robotics",
+		"description": "Semiotics narwhal readymade waistcoat tattooed. Schlitz pinterest cornhole hella asymmetrical jianbing. Chia aesthetic hell of labore, single-origin coffee sed deep v consequat poke meditation. Tonx jianbing incididunt migas occaecat kombucha coloring book vexillologist cardigan austin.",
+		"lecturer": "Prof. Semiotics",
+		"timetable": [{
+			"day": "Wednesday",
+			"startTime": "16:00",
+			"endTime": "17:30",
+		}],
+		"tags": ["AI"],
+        "imageName": "robotics"
+	},
+	{
+		"id": "6728",
+		"title": "Game Design",
+		"description": "Venmo stumptown enamel pin tumeric tattooed thundercats velit typewriter brunch cornhole lo-fi next level. Subway tile 90's lorem, austin minim bitters big mood id mixtape. Yr irony elit ullamco. Food truck incididunt hot chicken, tousled humblebrag Brooklyn art party consectetur vape keffiyeh locavore yuccie. Minim taiyaki vinyl, JOMO migas fixie dolor. Jean shorts four loko taxidermy, blog thundercats semiotics eu actually. Ennui pitchfork eiusmod JOMO.",
+		"lecturer": "Prof. Tumeric",
+		"timetable": [{
+			"day": "Monday",
+			"startTime": "10:00",
+			"endTime": "11:30",
+		}],
+		"tags": ["Play"],
+        "imageName": "game"
+	},
+	{
+		"id": "902",
+		"title": "Networking",
+		"description": "Single-origin coffee magna heirloom tacos ea cred. Aliquip mustache kickstarter, cold-pressed nisi lorem af etsy consequat crucifix sus. Shoreditch polaroid poke, twee wayfarers cloud bread occupy slow-carb eu mukbang schlitz YOLO. Flexitarian bushwick blue bottle venmo subway tile, 8-bit farm-to-table occaecat. Nisi laborum DSA YOLO green juice adaptogen. Williamsburg cred cray paleo hashtag.",
+		"lecturer": "Prof. Flexitarian",
+		"timetable": [
+			{
+				"day": "Tuesday",
+				"startTime": "09:00",
+				"endTime": "10:00",
+			},
+			{
+				"day": "Thursday",
+				"startTime": "14:00",
+				"endTime": "15:30",
+			}
+		],
+		"tags": ["HTTP", "OSI"],
+        "imageName": "network"
+	},
+	{
+		"id": "7689",
+		"title": "Agile Working",
+		"description": "Paleo cronut fugiat retro tilde twee PBR&B, do microdosing pug pinterest. Lumbersexual raw denim celiac dolore, semiotics excepteur cliche esse. Coloring book heirloom keytar iPhone etsy kickstarter laborum knausgaard irony pug esse. Green juice tempor tumeric tilde. Poutine kickstarter cold-pressed velit single-origin coffee vice dolore disrupt paleo neutra tote bag.",
+		"lecturer": "Prof. Lumbers",
+		"timetable": [{
+			"day": "Wednesday",
+			"startTime": "16:00",
+			"endTime": "17:30",
+		}],
+		"tags": ["Scrum", "Kanban"],
+        "imageName": "agile"
+	},
+	{
+		"id": "8924",
+		"title": "Bio Informatics",
+		"description": "+1 gastropub meh portland distillery, viral jean shorts mlkshk. Tbh celiac cred sriracha williamsburg echo park man braid quis. Cloud bread 8-bit next level ut, intelligentsia af skateboard. Kickstarter man braid culpa cred air plant non la croix heirloom tattooed quis meggings organic PBR&B. DSA listicle woke post-ironic nisi ugh. Listicle authentic PBR&B, big mood pop-up ethical chambray. Dummy text? More like dummy thicc text, amirite?",
+		"lecturer": "Prof. Listicle",
+		"timetable": [{
+			"day": "Monday",
+			"startTime": "10:00",
+			"endTime": "11:30",
+		}],
+		"tags": ["DNA", "Data"],
+        "imageName": "Bioinformatics"
+	},
+	{
+		"id": "4576879",
+		"title": "Theoretical Informatics",
+		"description": "Tempor raclette four loko, adaptogen consectetur cillum vice bicycle rights pour-over. Non wolf kombucha, church-key fugiat do selfies DIY ennui VHS bicycle rights chartreuse pour-over. Kinfolk mumblecore ugh, leggings 90's palo santo ea shoreditch hella narwhal pok pok bushwick. Hella authentic aute asymmetrical pickled cred vexillologist 90's salvia skateboard unicorn prism.",
+		"lecturer": "Prof. Tempor",
+		"timetable": [
+			{
+				"day": "Tuesday",
+				"startTime": "09:00",
+				"endTime": "10:00",
+			},
+			{
+				"day": "Thursday",
+				"startTime": "14:00",
+				"endTime": "15:30",
+			}
+		],
+		"tags": ["Automata", "Regex"],
+        "imageName": "computing"
+	},
+	{
+		"id": "9874",
+		"title": "Human Computer Interfaces",
+		"description": "Semiotics narwhal readymade waistcoat tattooed. Schlitz pinterest cornhole hella asymmetrical jianbing. Chia aesthetic hell of labore, single-origin coffee sed deep v consequat poke meditation. Tonx jianbing incididunt migas occaecat kombucha coloring book vexillologist cardigan austin.",
+		"lecturer": "Prof. Semiotics",
+		"timetable": [{
+			"day": "Wednesday",
+			"startTime": "16:00",
+			"endTime": "17:30",
+		}],
+		"tags": ["Speech", "Touch", "Gesture"],
+        "imageName": "hci"
+	}
+]
