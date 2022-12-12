@@ -18,10 +18,11 @@
 		BC2DC7F1293765F80065F641 /* XCTestCase+expectSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DC7F0293765F80065F641 /* XCTestCase+expectSnapshot.swift */; };
 		BC2DC7F4293767E90065F641 /* Course+mockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DC7F3293767E90065F641 /* Course+mockData.swift */; };
 		BC2DC7F6293767F10065F641 /* CourseSummary+mockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DC7F5293767F10065F641 /* CourseSummary+mockData.swift */; };
+		BC437D262937EF9900D82A1F /* CourseFeedViewModelIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC437D252937EF9900D82A1F /* CourseFeedViewModelIntegrationTests.swift */; };
 		BC94D29029312E9100D4A991 /* CourseFeedViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D28F29312E9100D4A991 /* CourseFeedViewModelTests.swift */; };
 		BC94D29229312ECB00D4A991 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D29129312ECB00D4A991 /* Person.swift */; };
 		BC94D29429312FAB00D4A991 /* Timeslot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D29329312FAB00D4A991 /* Timeslot.swift */; };
-		BC94D296293131B500D4A991 /* CourseServiceMockCommentedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D295293131B500D4A991 /* CourseServiceMockCommentedOut.swift */; };
+		BC94D296293131B500D4A991 /* CourseServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D295293131B500D4A991 /* CourseServiceMock.swift */; };
 		BC94D29E293132F700D4A991 /* StudentServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D29C293132F700D4A991 /* StudentServiceImpl.swift */; };
 		BC94D29F293132F700D4A991 /* StudentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D29D293132F700D4A991 /* StudentService.swift */; };
 		BC94D2A429313DE900D4A991 /* UserDefault+proeprtyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D2A329313DE900D4A991 /* UserDefault+proeprtyWrapper.swift */; };
@@ -80,11 +81,12 @@
 		BC2DC7F0293765F80065F641 /* XCTestCase+expectSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+expectSnapshot.swift"; sourceTree = "<group>"; };
 		BC2DC7F3293767E90065F641 /* Course+mockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+mockData.swift"; sourceTree = "<group>"; };
 		BC2DC7F5293767F10065F641 /* CourseSummary+mockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSummary+mockData.swift"; sourceTree = "<group>"; };
+		BC437D252937EF9900D82A1F /* CourseFeedViewModelIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseFeedViewModelIntegrationTests.swift; sourceTree = "<group>"; };
 		BC94D28E29312E2B00D4A991 /* courses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courses.json; sourceTree = "<group>"; };
 		BC94D28F29312E9100D4A991 /* CourseFeedViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseFeedViewModelTests.swift; sourceTree = "<group>"; };
 		BC94D29129312ECB00D4A991 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		BC94D29329312FAB00D4A991 /* Timeslot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeslot.swift; sourceTree = "<group>"; };
-		BC94D295293131B500D4A991 /* CourseServiceMockCommentedOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseServiceMockCommentedOut.swift; sourceTree = "<group>"; };
+		BC94D295293131B500D4A991 /* CourseServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseServiceMock.swift; sourceTree = "<group>"; };
 		BC94D29C293132F700D4A991 /* StudentServiceImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentServiceImpl.swift; sourceTree = "<group>"; };
 		BC94D29D293132F700D4A991 /* StudentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentService.swift; sourceTree = "<group>"; };
 		BC94D2A329313DE900D4A991 /* UserDefault+proeprtyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+proeprtyWrapper.swift"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				BC94D28F29312E9100D4A991 /* CourseFeedViewModelTests.swift */,
+				BC437D252937EF9900D82A1F /* CourseFeedViewModelIntegrationTests.swift */,
 			);
 			path = CourseFeed;
 			sourceTree = "<group>";
@@ -223,7 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				BC2DC7DB29368CC30065F641 /* StudentServiceMock.swift */,
-				BC94D295293131B500D4A991 /* CourseServiceMockCommentedOut.swift */,
+				BC94D295293131B500D4A991 /* CourseServiceMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -577,9 +580,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2DC7EC293763790065F641 /* CourseDetailViewTests.swift in Sources */,
+				BC437D262937EF9900D82A1F /* CourseFeedViewModelIntegrationTests.swift in Sources */,
 				BC2DC7E02936AAEF0065F641 /* StudentServiceMock.swift in Sources */,
 				BC2DC7F1293765F80065F641 /* XCTestCase+expectSnapshot.swift in Sources */,
-				BC94D296293131B500D4A991 /* CourseServiceMockCommentedOut.swift in Sources */,
+				BC94D296293131B500D4A991 /* CourseServiceMock.swift in Sources */,
 				BC94D2C22933FE0800D4A991 /* UserDefaults+StorageTests.swift in Sources */,
 				BC94D2AF29318B5E00D4A991 /* StudentServiceTests.swift in Sources */,
 				BC94D29029312E9100D4A991 /* CourseFeedViewModelTests.swift in Sources */,

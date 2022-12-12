@@ -1,7 +1,8 @@
 import Foundation
 
 class StudentServiceImpl: StudentService {
-	private(set) var favoriteCourseIds: Set<String> = .init()
+	@UserDefault(key: "favorite_course_ids", defaultValue: Set<String>())
+	private(set) var favoriteCourseIds: Set<String>
 
 	func addFavoriteCourse(withId courseId: String) {
 		favoriteCourseIds.insert(courseId)

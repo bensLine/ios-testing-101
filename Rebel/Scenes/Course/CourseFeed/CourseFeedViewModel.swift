@@ -4,8 +4,13 @@ class CourseFeedViewModel: ObservableObject {
 	@Published var searchString = ""
 
 	private(set) var courseSummaries: [CourseSummary] = []
-	private let courseService: CourseService = CourseServiceImpl()
-	private let studentService: StudentService = StudentServiceImpl()
+	private let courseService: CourseService
+	private let studentService: StudentService
+
+	init(courseService: CourseService = CourseServiceImpl(), studentService: StudentService = StudentServiceImpl()) {
+		self.courseService = courseService
+		self.studentService = studentService
+	}
 
 	var listedCourses: [CourseSummary] {
 		courseSummaries
